@@ -14,7 +14,7 @@ public class StudentApp {
 
 	public static void main(String[] args) throws IOException {
 		 Student student;
-		 /*
+		  
 		 String stName;
 		 String stAddress;
 		 String stID;
@@ -48,7 +48,7 @@ public class StudentApp {
 			 count++;
 		 }
 		 ReadData();
-		 */
+		 
 		 int number=0;
 		 String choiceNumber ;
 		 try {
@@ -64,7 +64,7 @@ public class StudentApp {
 		 
 
 	}
-	/*
+	 
 	public static void ReadData() throws IOException {
 	
 		String FileName="StudentInformation.txt";
@@ -77,7 +77,7 @@ public class StudentApp {
 		}
 		inputFile.close();
 	}
-	*/
+	 
 	
 	public static void RecusiveMethod(int n) {
 		 if(n==0) {
